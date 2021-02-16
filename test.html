@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+    <div class="nameBox">
+        <div class="nameBoxC">
+            <i id="iconUser" class="fas fa-user-circle"></i>
+            <br>
+            
+            <div class="inputBox"><i id="iconUser1" class="fab fa-lastfm"></i><input class="nameE" type="text" name="firstName" id="Uname" placeholder="  Name:"></div>
+            <br>
+            <div class="inputBox"><i id="iconUser2" class="fab fa-lastfm"></i><input class="nameE" type="text" name="lastName" id="UlastName" placeholder="  Last name:"></div>
+            
+            <div class="getName" onclick="getName()"><i class="iconUser3 fas fa-address-card"></i>Login</div>
+        </div>
+    </div>
+
+    <div class="allResults">
+    
+        <div class="showReBox">
+            
+            <div style="background: none;"><a href="links.html"><i class="fas fa-bars"></i></a></div>
+
+            <div id="qrcode"></div>
+            <p id="Malumotnoma"></p>
+            
+            <p id="percent1"></p>
+            <div class="chart">
+                <div id="percent2"></div>
+
+            </div>
+                <div id="restartBtn"><a style="color:black;" id="restart" href="www.test.com.html">Restart</a></div>
+        </div>
+
+    </div>
+
+
+
+    <div class="allTest">
+
+
+
+
+    <div class="boshJoy">
+    </div>
+
+<a onclick="complete()">
+    <div class="completed">
+        <div class="completeIcon"><i id="completeIcon1" class="fas fa-cog"></i></div>
+    </div>
+</a>
+    <ul class="testIndexes">
+        <a class="Index" onclick="indexFunc(1)"><li id="test1" class="testIndex"> 1 </li></a>
+        <a class="Index" onclick="indexFunc(2)"><li id="test2" class="testIndex"> 2 </li></a>
+        <a class="Index" onclick="indexFunc(3)"><li id="test3" class="testIndex"> 3 </li></a>
+        <a class="Index" onclick="indexFunc(4)"><li id="test4" class="testIndex"> 4 </li></a>
+        <a class="Index" onclick="indexFunc(5)"><li id="test5" class="testIndex"> 5 </li></a>
+        <br>
+        <a class="Index" onclick="indexFunc(6)"><li id="test6" class="testIndex"> 6 </li></a>
+        <a class="Index" onclick="indexFunc(7)"><li id="test7" class="testIndex"> 7 </li></a>
+        <a class="Index" onclick="indexFunc(8)"><li id="test8" class="testIndex"> 8 </li></a>
+        <a class="Index" onclick="indexFunc(9)"><li id="test9" class="testIndex"> 9 </li></a>
+        <a class="Index" onclick="indexFunc(10)"><li id="test10" class="testIndex"> 10 </li></a>
+    </ul>
+   
+
+
+    <div class="QuestionsBox" id="QuBox1">
+        <p class="Question">Nyutonning 2-qonuni formullasini ko`rsating.</p>
+        <div class="AnswerBox">
+
+            <a onclick="falseAns(1)" id="A1"><div class="answer"><strong>A</strong> F=mg </div></a>
+            <a onclick="trueAns(1)" id="B1"><div class="answer"><strong>B</strong> F=ma </div> </a>
+            <a onclick="falseAns(1)" id="C1"><div class="answer"><strong>C</strong> F=mga </div></a>
+            <a onclick="falseAns(1)" id="D1"><div class="answer"><strong>D</strong> F=kl </div></a>
+
+        </div>
+    </div>
+
+
+    <div class="QuestionsBox" id="QuBox2">
+        <p class="Question"></p>
+        <div class="AnswerBox">
+
+            <a onclick="trueAns(2)" id="A1"><div class="answer"><strong>A</strong> a dogsdfgctor </div></a>
+            <a onclick="falseAns(2)" id="B1"><div class="answer"><strong>B</strong> a dfsgevoloper</div> </a>
+            <a onclick="falseAns(2)" id="C1"><div class="answer"><strong>C</strong> a tegsdfacher </div></a>
+            <a onclick="falseAns(2)" id="D1"><div class="answer"><strong>D</strong> a ngsdffsdurse </div></a>
+
+        </div>
+    </div>
+
+
+
+    <div class="QuestionsBox" id="QuBox3">
+        <p class="Question">Who 3 use computer every dayffaksdjflasjdf?????</p>
+        <div class="AnswerBox">
+
+            <a onclick="trueAns(3)" id="A1"><div class="answer"><strong>A</strong> a doctor </div></a>
+            <a onclick="falseAns(3)" id="B1"><div class="answer"><strong>B</strong> a devoloper</div> </a>
+            <a onclick="falseAns(3)" id="C1"><div class="answer"><strong>C</strong> a teacher </div></a>
+            <a onclick="falseAns(3)" id="D1"><div class="answer"><strong>D</strong> a nurse </div></a>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="QuestionsBox" id="QuBox4">
+        <p class="Question">Who 4 use computer every dayffaksdjflasjdf?????</p>
+        <div class="AnswerBox">
+
+            <a onclick="trueAns(4)" id="A1"><div class="answer"><strong>A</strong> a doctor </div></a>
+            <a onclick="falseAns(4)" id="B1"><div class="answer"><strong>B</strong> a devoloper</div> </a>
+            <a onclick="falseAns(4)" id="C1"><div class="answer"><strong>C</strong> a teacher </div></a>
+            <a onclick="falseAns(4)" id="D1"><div class="answer"><strong>D</strong> a nurse </div></a>
+
+        </div>
+    </div>
+
+
+
+    <div class="QuestionsBox" id="QuBox5">
+        <p class="Question">Who 5 use computer every dayffaksdjflasjdf?????</p>
+        <div class="AnswerBox">
+
+            <a onclick="trueAns(5)" id="A1"><div class="answer"><strong>A</strong> a doctor </div></a>
+            <a onclick="falseAns(5)" id="B1"><div class="answer"><strong>B</strong> a devoloper</div> </a>
+            <a onclick="falseAns(5)" id="C1"><div class="answer"><strong>C</strong> a teacher </div></a>
+            <a onclick="falseAns(5)" id="D1"><div class="answer"><strong>D</strong> a nurse </div></a>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="QuestionsBox" id="QuBox6">
+        <p class="Question">Who 6 use computer every dayffaksdjflasjdf?????</p>
+        <div class="AnswerBox">
+
+            <a onclick="trueAns(6)" id="A1"><div class="answer"><strong>A</strong> a doctor </div></a>
+            <a onclick="falseAns(6)" id="B1"><div class="answer"><strong>B</strong> a devoloper</div> </a>
+            <a onclick="falseAns(6)" id="C1"><div class="answer"><strong>C</strong> a teacher </div></a>
+            <a onclick="falseAns(6)" id="D1"><div class="answer"><strong>D</strong> a nurse </div></a>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="QuestionsBox" id="QuBox7">
+        <p class="Question">Who 7 use computer every dayffaksdjflasjdf?????</p>
+        <div class="AnswerBox">
+
+            <a onclick="trueAns(7)" id="A1"><div class="answer"><strong>A</strong> a doctor </div></a>
+            <a onclick="falseAns(7)" id="B1"><div class="answer"><strong>B</strong> a devoloper</div> </a>
+            <a onclick="falseAns(7)" id="C1"><div class="answer"><strong>C</strong> a teacher </div></a>
+            <a onclick="falseAns(7)" id="D1"><div class="answer"><strong>D</strong> a nurse </div></a>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="QuestionsBox" id="QuBox8">
+        <p class="Question">Who use 8 computer every dayffaksdjflasjdf?????</p>
+        <div class="AnswerBox">
+
+            <a onclick="trueAns(8)" id="A1"><div class="answer"><strong>A</strong> a doctor </div></a>
+            <a onclick="falseAns(8)" id="B1"><div class="answer"><strong>B</strong> a devoloper</div> </a>
+            <a onclick="falseAns(8)" id="C1"><div class="answer"><strong>C</strong> a teacher </div></a>
+            <a onclick="falseAns(8)" id="D1"><div class="answer"><strong>D</strong> a nurse </div></a>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="QuestionsBox" id="QuBox9">
+        <p class="Question">Who 9 use computer every dayffaksdjflasjdf?????</p>
+        <div class="AnswerBox">
+
+            <a onclick="trueAns(9)" id="A1"><div class="answer"><strong>A</strong> a doctor </div></a>
+            <a onclick="falseAns(9)" id="B1"><div class="answer"><strong>B</strong> a devoloper</div> </a>
+            <a onclick="falseAns(9)" id="C1"><div class="answer"><strong>C</strong> a teacher </div></a>
+            <a onclick="falseAns(9)" id="D1"><div class="answer"><strong>D</strong> a nurse </div></a>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="QuestionsBox" id="QuBox10">
+        <p class="Question">Who 10 use computer every dayffaksdjflasjdf?????</p>
+        <div class="AnswerBox">
+
+            <a onclick="trueAns(10)" id="A1"><div class="answer"><strong>A</strong> a doctor </div></a>
+            <a onclick="falseAns(10)" id="B1"><div class="answer"><strong>B</strong> a devoloper</div> </a>
+            <a onclick="falseAns(10)" id="C1"><div class="answer"><strong>C</strong> a teacher </div></a>
+            <a onclick="falseAns(10)" id="D1"><div class="answer"><strong>D</strong> a nurse </div></a>
+
+        </div>
+    </div>
+
+    <div class="controller">
+        <a id="perBtn" onclick="perFunc()"><i class="fas fa-angle-double-left"></i></a>
+        <a id="nextBtn" onclick="nextFunc()"><i class="fas fa-angle-double-right"></i></a>    
+    </div>
+
+    <div id="restartBtn" onclick="getResult()"><a id="restart">Result</a></div>
+
+</div>
+
+    <script src="qrcode.min.js"></script>
+    <script src="test.js"></script>
+
+</body>
+</html>
