@@ -1,8 +1,8 @@
 import instaloader
 L = instaloader.Instaloader()
-L.interactive_login('@cyberr_ghostt') 
+L.interactive_login('@username') 
  
-profile = instaloader.Profile.from_username(L.context, "cyberr_ghostt")
+profile = instaloader.Profile.from_username(L.context, "username")
 
 # get_followers()
 # get_followees()
